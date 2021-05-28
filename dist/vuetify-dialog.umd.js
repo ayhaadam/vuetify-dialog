@@ -1690,7 +1690,7 @@
                     ])
                   : _vm._e(),
                 _vm._v(" "),
-                _c("v-toolbar-title", {}, [
+                _c("v-toolbar-title", { staticClass: "font-weight-bold" }, [
                   _vm._v("\n      " + _vm._s(_vm.title) + "\n    ")
                 ])
               ],

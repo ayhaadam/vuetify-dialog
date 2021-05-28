@@ -1,5 +1,8 @@
 <template>
-  <v-card tile outlined>
+  <v-card
+    tile
+    outlined
+  >
     <v-toolbar
       v-if="title"
       :dark="Boolean(getColor)"
@@ -12,7 +15,7 @@
       >
         {{ getIcon }}
       </v-icon>
-      <v-toolbar-title class="">
+      <v-toolbar-title class="font-weight-bold">
         {{ title }}
       </v-toolbar-title>
     </v-toolbar>
