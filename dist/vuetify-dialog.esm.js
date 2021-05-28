@@ -1666,18 +1666,12 @@ var __vue_render__$5 = function() {
   var _c = _vm._self._c || _h;
   return _c(
     "v-card",
-    { attrs: { tile: "", outlined: "" } },
+    { attrs: { tile: "", outlined: "", rounded: "lg" } },
     [
       _vm.title
         ? _c(
             "v-toolbar",
-            {
-              attrs: {
-                dark: Boolean(_vm.getColor),
-                color: _vm.getColor,
-                flat: ""
-              }
-            },
+            { attrs: { dark: Boolean(_vm.getColor), flat: "" } },
             [
               Boolean(_vm.getIcon)
                 ? _c("v-icon", { attrs: { left: "" } }, [

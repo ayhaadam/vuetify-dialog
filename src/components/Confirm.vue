@@ -2,11 +2,11 @@
   <v-card
     tile
     outlined
+    rounded="lg"
   >
     <v-toolbar
       v-if="title"
       :dark="Boolean(getColor)"
-      :color="getColor"
       flat
     >
       <v-icon
