@@ -1,10 +1,9 @@
 <template>
-  <v-card tile>
+  <v-card tile outlined>
     <v-toolbar
       v-if="title"
       :dark="Boolean(getColor)"
       :color="getColor"
-      dense
       flat
     >
       <v-icon
