@@ -7,6 +7,7 @@
     :disabled="disabled"
     @click="$emit('click', this)"
     v-on="on"
+    rounded
   >
     <v-icon
       v-if="icon && !icon.right"

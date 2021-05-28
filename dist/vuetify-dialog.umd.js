@@ -1423,7 +1423,8 @@
             attrs: {
               text: _vm.flat,
               icon: !_vm.text && Boolean(_vm.icon),
-              disabled: _vm.disabled
+              disabled: _vm.disabled,
+              rounded: ""
             },
             on: {
               click: function($event) {
