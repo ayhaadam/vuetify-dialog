@@ -1934,7 +1934,8 @@ var script$8 = {
     centered: Boolean,
     rounded: [Boolean, String],
     outlined: Boolean,
-    shaped: Boolean
+    shaped: Boolean,
+    dark: Boolean,
   },
   data: function data () {
     var position = this.position || this.$options.propsData.position || '';
@@ -1982,7 +1983,8 @@ var __vue_render__$8 = function() {
         centered: _vm.centered,
         rounded: _vm.rounded,
         outlined: _vm.outlined,
-        shaped: _vm.shaped
+        shaped: _vm.shaped,
+        dark: _vm.dark
       },
       on: { click: _vm.dismiss },
       model: {

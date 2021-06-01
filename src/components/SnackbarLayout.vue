@@ -16,6 +16,7 @@
     :rounded="rounded"
     :outlined="outlined"
     :shaped="shaped"
+    :dark="dark"
     @click="dismiss"
   >
     <dialog-child
@@ -54,7 +55,8 @@ export default {
     centered: Boolean,
     rounded: [Boolean, String],
     outlined: Boolean,
-    shaped: Boolean
+    shaped: Boolean,
+    dark: Boolean,
   },
   data () {
     const position = this.position || this.$options.propsData.position || ''
